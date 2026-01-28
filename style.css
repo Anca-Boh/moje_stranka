@@ -1,0 +1,21 @@
+.nadpis {
+    color: brown;
+    font-size: larger;
+    text-align: center;
+}
+
+.text {
+    color: rgb(27, 39, 110);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: large;
+    line-height: 1.cm;
+}
+
+.obrazek {
+    width: 100%;
+    max-height: 400px;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+} 
