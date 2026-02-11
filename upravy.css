@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    cursor: wait;
+}
+
+.stranka {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.karty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+
+.karta {    
+    margin: 15px;             
+    padding: 15px;             
+    background-color: white;
+    border: 1px solid #ccc;      
+    border-radius: 15px;         
+    text-decoration: none;
+    color: black;
+    cursor: help;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.karta img {
+    width: 200px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.karta h2 {
+    margin: 10px 0 5px 0;
+    font-size: 20px;
+}
+
+.karta p {
+    font-size: 14px;
+    color: #444;
+}
+
+.karta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
